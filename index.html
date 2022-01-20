@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi curriculum vitae</title>
+        <script src="https://kit.fontawesome.com/dc0eea68fb.js" crossorigin="anonymous"></script>
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="assets/css/styles.css"><!-- Incorporar hoja de estilo por archivo-->
+        
+        <!-- Incorporar styles en el head con etiqueta style-->
+        <style>
+            #menu{
+                background-color: lightblue;
+                list-style: none;
+                overflow: hidden;
+                margin: 0;
+            }
+
+            #menu li{
+                float: left;
+            }
+
+            #menu li a,
+            #menu2 li a{
+                display: inline-block;
+                padding: 8px 15px;
+                text-decoration: none;
+                color: black;
+            }
+
+            #menu li a:hover{
+                background-color: rgb(0,0,100);
+                color: #FFF;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!-- Ejemplo de CSS por atributo -->
+            <div id="texto-titulo" style="background-color: black;">
+                <h1 style="color: white; font-family: 'Pushster', cursive;">Curriculum Vitae - Osman Pérez</h1>
+            </div>
+
+            <nav>
+                <ul id="menu">
+                    <li><a href="#perfil"><i class="fas fa-home"></i> Perfil</a></li>
+                    <li><a href="#resumen"><i class="fas fa-file"></i> Resumen</a></li>
+                    <li><a href="#personal"><i class="fas fa-user"></i> Datos personales</a></li>
+                    <li><a href="#academico"><i class="fas fa-book"></i> Formación académica</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="perfil">
+            <img src="assets/img/fotoOsman2.jpg" alt="Foto de perfil" width="150px">
+        </section>
+
+        <section id="resumen" class="texto-azul">
+            <h3>Resumen</h3>
+            <p class="texto-azul">Desarrollador web con experiencia en PHP, Javascript, Mysql, Postgres, entre otros</p>
+        </section>
+
+        <section id="resumen2" class="texto-azul">
+            <h3>Resumen2</h3>
+            <p class="texto-azul">Desarrollador web con experiencia en PHP, Javascript, Mysql, Postgres, entre otros</p>
+        </section>
+
+        <section id="personal">
+            <h3>Datos personales</h3>
+            <p class="texto-azul">
+                <b>Nombre:</b> Osman Pérez<br>
+                <b>Correo electrónico:</b> operez@edutecno.com<br>
+                <span style="color: blue"><strong>Dirección:</strong> Venezuela</span>
+            </p>
+        </section>
+
+        <section id="academico">
+            <h3>Formación académica</h3>
+            <ul>
+                <li>
+                    <strong>Institución: </strong>Instituto Universitario de Tecnología Mariscal - 
+                    <strong>Años: </strong> 2006 - 2012
+                </li>
+
+                <li>
+                    <strong>Institución: </strong>Instituto Universitario del Sur - 
+                    <strong>Años: </strong> 2004 - 2006
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <div>Curriculum Vitae Osman Pérez - operez@edutecno.com</div>
+        </footer>
+    </body>
+</html>
